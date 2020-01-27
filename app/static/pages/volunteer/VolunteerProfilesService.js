@@ -56,6 +56,7 @@ oppiaFoundationWebsite.factory('VolunteerProfilesService', [
         return volunteersByCategory.lessonCreation;
       },
       getLocalOutreachProfiles: function() {
+        console.log("test");
         return volunteersByCategory.localOutreach;
       },
       getSlidesForTab: function(tabName) {
